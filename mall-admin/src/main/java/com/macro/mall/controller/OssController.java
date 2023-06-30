@@ -22,7 +22,7 @@ import javax.servlet.http.HttpServletRequest;
  */
 @Controller
 @Api(tags = "OssController")
-@Tag(name = "OssController", description = "Oss对象存储管理")
+@Tag(name = "Oss对象存储管理", description = "Oss对象存储管理")
 @RequestMapping("/aliyun/oss")
 public class OssController {
     @Autowired

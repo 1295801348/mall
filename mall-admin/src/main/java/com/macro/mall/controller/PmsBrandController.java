@@ -21,7 +21,7 @@ import java.util.List;
  */
 @Controller
 @Api(tags = "PmsBrandController")
-@Tag(name = "PmsBrandController", description = "商品品牌管理")
+@Tag(name = "商品品牌管理", description = "商品品牌管理")
 @RequestMapping("/brand")
 public class PmsBrandController {
     @Autowired

@@ -21,7 +21,7 @@ import java.util.List;
  */
 @Controller
 @Api(tags = "UmsMemberLevelController")
-@Tag(name = "UmsMemberLevelController", description = "会员等级管理")
+@Tag(name = "会员等级管理", description = "会员等级管理")
 @RequestMapping("/memberLevel")
 public class UmsMemberLevelController {
     @Autowired

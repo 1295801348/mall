@@ -22,7 +22,7 @@ import java.util.List;
  */
 @Controller
 @Api(tags = "CmsSubjectController")
-@Tag(name = "CmsSubjectController", description = "商品专题管理")
+@Tag(name = "商品专题管理", description = "商品专题管理")
 @RequestMapping("/subject")
 public class CmsSubjectController {
     @Autowired

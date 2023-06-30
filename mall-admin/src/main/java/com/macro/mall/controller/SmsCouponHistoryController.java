@@ -22,7 +22,7 @@ import java.util.List;
  */
 @Controller
 @Api(tags = "SmsCouponHistoryController")
-@Tag(name = "SmsCouponHistoryController", description = "优惠券领取记录管理")
+@Tag(name = "优惠券领取记录管理", description = "优惠券领取记录管理")
 @RequestMapping("/couponHistory")
 public class SmsCouponHistoryController {
     @Autowired

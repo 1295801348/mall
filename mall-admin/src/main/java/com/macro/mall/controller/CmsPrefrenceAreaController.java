@@ -20,7 +20,7 @@ import java.util.List;
  */
 @Controller
 @Api(tags = "CmsPrefrenceAreaController")
-@Tag(name = "CmsPrefrenceAreaController", description = "商品优选管理")
+@Tag(name = "商品优选管理", description = "商品优选管理")
 @RequestMapping("/prefrenceArea")
 public class CmsPrefrenceAreaController {
     @Autowired

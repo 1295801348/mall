@@ -19,7 +19,7 @@ import java.util.List;
  */
 @Controller
 @Api(tags = "OmsOrderReturnReasonController")
-@Tag(name = "OmsOrderReturnReasonController", description = "退货原因管理")
+@Tag(name = "退货原因管理", description = "退货原因管理")
 @RequestMapping("/returnReason")
 public class OmsOrderReturnReasonController {
     @Autowired
