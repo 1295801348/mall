@@ -20,7 +20,7 @@ import java.util.List;
  * Created by macro on 2018/4/26.
  */
 @Controller
-@Api(tags = "PmsBrandController")
+@Api(tags = "商品品牌管理")
 @Tag(name = "商品品牌管理", description = "商品品牌管理")
 @RequestMapping("/brand")
 public class PmsBrandController {

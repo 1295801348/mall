@@ -19,7 +19,7 @@ import java.util.List;
  * Created by macro on 2020/2/4.
  */
 @Controller
-@Api(tags = "UmsMenuController")
+@Api(tags = "后台菜单管理")
 @Tag(name = "后台菜单管理", description = "后台菜单管理")
 @RequestMapping("/menu")
 public class UmsMenuController {
